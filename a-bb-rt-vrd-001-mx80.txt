@@ -1,0 +1,710 @@
+a-bb-rt-vrd-001-mx80> show interfaces brief | no-more 
+Physical interface: lc-0/0/0, Enabled, Physical link is Up
+  Type: Unspecified, Link-level type: Unspecified, MTU: 0, Clocking: Unspecified, Speed: 800mbps
+  Device flags   : Present Running
+
+  Logical interface lc-0/0/0.32769 
+    Flags: Up Encapsulation: ENET2
+    vpls
+
+Physical interface: pfe-0/0/0, Enabled, Physical link is Up
+  Type: Unspecified, Link-level type: Unspecified, MTU: 0, Clocking: Unspecified, Speed: 800mbps
+  Device flags   : Present Running
+
+  Logical interface pfe-0/0/0.16383 
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    inet
+    inet6
+
+Physical interface: pfh-0/0/1, Enabled, Physical link is Up
+  Type: Unspecified, Link-level type: Unspecified, MTU: 0, Clocking: Unspecified, Speed: 800mbps
+  Device flags   : Present Running
+
+  Logical interface pfh-0/0/0.16383 
+    Flags: Up SNMP-Traps Encapsulation: ENET2
+    inet
+
+Physical interface: xe-0/0/0, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 9192, MRU: 9200, LAN-PHY mode, Speed: 10Gbps, Loopback: None, Source filtering: Disabled, Flow control: Disabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+  Logical interface xe-0/0/0.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    aenet
+
+Physical interface: xe-0/0/1, Administratively down, Physical link is Down
+  Link-level type: Ethernet, MTU: 1514, MRU: 1522, LAN-PHY mode, Speed: 10Gbps, Loopback: None, Source filtering: Disabled, Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down Down SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+Physical interface: xe-0/0/2, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 9192, MRU: 9200, LAN-PHY mode, Speed: 10Gbps, Loopback: None, Source filtering: Disabled, Flow control: Disabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+  Logical interface xe-0/0/2.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    aenet
+
+Physical interface: xe-1/0/3, Administratively down, Physical link is Down
+  Link-level type: Ethernet, MTU: 1514, MRU: 1522, LAN-PHY mode, Speed: 10Gbps, Loopback: None, Source filtering: Disabled, Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down Down SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+Physical interface: ge-1/0/0, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 9192, MRU: 9200, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Disabled,
+  Auto-negotiation: Disabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+  Logical interface ge-1/0/0.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    aenet
+
+Physical interface: ge-1/2/1, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 9192, MRU: 9200, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Disabled,
+  Auto-negotiation: Disabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+  Logical interface ge-1/2/1.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    aenet
+
+Physical interface: ge-1/0/2, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 9192, MRU: 9200, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Disabled,
+  Auto-negotiation: Disabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+  Logical interface ge-1/0/2.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    aenet
+
+Physical interface: ge-1/0/3, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 9192, MRU: 9200, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Disabled,
+  Auto-negotiation: Disabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+  Logical interface ge-1/0/3.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    aenet
+
+Physical interface: ge-1/0/4, Enabled, Physical link is Up
+  Link-level type: Flexible-Ethernet, MTU: 2014, MRU: 2022, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled,
+  Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+
+  Logical interface ge-1/0/4.43 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.43 ]  Encapsulation: ENET2
+    inet  10.5.3.250/30   
+    multiservice
+
+  Logical interface ge-1/0/4.188 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.188 ]  Encapsulation: VLAN-Bridge
+    bridge
+
+  Logical interface ge-1/0/4.270 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.270 ]  Encapsulation: VLAN-Bridge
+    bridge
+
+  Logical interface ge-1/0/4.452 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.452 ]  Encapsulation: ENET2
+    inet  177.69.216.214/30
+    multiservice
+
+  Logical interface ge-1/0/4.544 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.544 ]  Encapsulation: ENET2
+    inet  201.48.118.82/30
+    multiservice
+
+  Logical interface ge-1/0/4.1074 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.1074 ]  Encapsulation: VLAN-CCC
+    ccc
+
+  Logical interface ge-1/0/4.2054 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.2054 ]  Encapsulation: VLAN-VPLS
+    vpls
+
+  Logical interface ge-1/0/4.2066 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.2066 ]  Encapsulation: ENET2
+    inet  189.112.145.238/30
+    multiservice
+
+  Logical interface ge-1/0/4.2533 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.2533 ]  Encapsulation: ENET2
+    inet  201.16.250.230/30
+    multiservice
+
+  Logical interface ge-1/0/4.3530 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.3530 ]  Encapsulation: ENET2
+    inet  10.55.60.18/30  
+    multiservice
+
+  Logical interface ge-1/0/4.32767 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    multiservice
+
+Physical interface: ge-1/0/5, Enabled, Physical link is Up
+  Link-level type: Flexible-Ethernet, MTU: 2014, MRU: 2022, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled,
+  Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+
+  Logical interface ge-1/0/5.64 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.64 ]  Encapsulation: VLAN-CCC
+    ccc
+
+  Logical interface ge-1/0/5.82 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.82 ]  Encapsulation: ENET2
+    inet  177.69.99.226/30
+    multiservice
+
+  Logical interface ge-1/0/5.188 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.188 ]  Encapsulation: VLAN-Bridge
+    bridge
+
+  Logical interface ge-1/0/5.270 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.270 ]  Encapsulation: VLAN-Bridge
+    bridge
+
+  Logical interface ge-1/0/5.417 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.417 ]  Encapsulation: ENET2
+    inet  187.32.239.118/30
+    multiservice
+
+  Logical interface ge-1/0/5.1537 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.1537 ]  Encapsulation: VLAN-CCC
+    ccc
+
+  Logical interface ge-1/0/5.1550 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.1550 ]  Encapsulation: VLAN-CCC
+    ccc
+
+  Logical interface ge-1/0/5.2077 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.2077 ]  Encapsulation: VLAN-VPLS
+    vpls
+
+  Logical interface ge-1/0/5.32767 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    multiservice
+
+Physical interface: ge-1/0/6, Enabled, Physical link is Up
+  Link-level type: Flexible-Ethernet, MTU: 2014, MRU: 2022, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled,
+  Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+
+  Logical interface ge-1/0/6.188 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.188 ]  Encapsulation: VLAN-Bridge
+    bridge
+
+  Logical interface ge-1/0/6.199 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.199 ]  Encapsulation: ENET2
+    inet  187.32.13.190/30
+    multiservice
+
+  Logical interface ge-1/0/6.225 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.225 ]  Encapsulation: ENET2
+    inet  187.32.32.98/30 
+    multiservice
+
+  Logical interface ge-1/0/6.270 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.270 ]  Encapsulation: VLAN-Bridge
+    bridge
+
+  Logical interface ge-1/0/6.1326 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.1326 ]  Encapsulation: VLAN-CCC
+    ccc
+
+  Logical interface ge-1/0/6.2065 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.2065 ]  Encapsulation: ENET2
+    inet  201.16.192.110/30
+    multiservice
+
+  Logical interface ge-1/0/6.32767 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    multiservice
+
+Physical interface: ge-1/0/7, Administratively down, Physical link is Down
+  Link-level type: Ethernet, MTU: 1514, MRU: 1522, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled,
+  Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down Down SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+Physical interface: ge-1/0/8, Enabled, Physical link is Down
+  Link-level type: Ethernet, MTU: 1514, MRU: 1522, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled,
+  Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+Physical interface: ge-1/0/9, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 1514, MRU: 1522, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled,
+  Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+  Logical interface ge-1/0/9.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    inet  201.16.255.234/30
+    multiservice
+
+Physical interface: ge-1/1/0, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 9192, MRU: 9200, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Disabled,
+  Auto-negotiation: Disabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+  Logical interface ge-1/1/0.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    aenet
+
+Physical interface: ge-1/1/1, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 9192, MRU: 9200, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Disabled,
+  Auto-negotiation: Disabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+  Logical interface ge-1/1/1.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    aenet
+
+Physical interface: ge-1/1/2, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 9192, MRU: 9200, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Disabled,
+  Auto-negotiation: Disabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+  Logical interface ge-1/1/2.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    aenet
+
+Physical interface: ge-1/1/3, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 9192, MRU: 9200, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Disabled,
+  Auto-negotiation: Disabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+  Logical interface ge-1/1/3.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    aenet
+
+Physical interface: ge-1/1/4, Administratively down, Physical link is Down
+  Link-level type: Ethernet, MTU: 1514, MRU: 1522, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled,
+  Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down Down SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+Physical interface: ge-1/1/5, Administratively down, Physical link is Down
+  Link-level type: Ethernet, MTU: 1514, MRU: 1522, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled,
+  Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down Down SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+Physical interface: ge-1/1/6, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 1514, MRU: 1522, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled,
+  Auto-negotiation: Disabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+Physical interface: ge-1/1/7, Administratively down, Physical link is Down
+  Link-level type: Ethernet, MTU: 1514, MRU: 1522, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled,
+  Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down Down SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+Physical interface: ge-1/1/8, Enabled, Physical link is Up
+  Link-level type: Flexible-Ethernet, MTU: 2014, MRU: 2022, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled,
+  Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+
+  Logical interface ge-1/1/8.270 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.270 ]  Encapsulation: VLAN-Bridge
+    bridge
+
+  Logical interface ge-1/1/8.400 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.400 ]  Encapsulation: VLAN-Bridge
+    bridge
+
+  Logical interface ge-1/1/8.2525 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x8100.2525 ]  Encapsulation: ENET2
+    inet
+    multiservice
+
+  Logical interface ge-1/1/8.32767 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    multiservice
+
+Physical interface: ge-1/1/9, Enabled, Physical link is Up
+  Link-level type: Ethernet-VPLS, MTU: 9192, MRU: 9200, LAN-PHY mode, Speed: 1000mbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled,
+  Auto-negotiation: Enabled, Remote fault: Online
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+  Logical interface ge-1/1/9.0 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [  ] In(push 0x8100.2088) Out(pop)  Encapsulation: Ethernet-VPLS
+    vpls
+
+Physical interface: xe-1/2/0, Enabled, Physical link is Up
+  Link-level type: Flexible-Ethernet, MTU: 9192, MRU: 9200, LAN-PHY mode, Speed: 10Gbps, Loopback: None, Source filtering: Disabled, Flow control: Enabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+
+  Logical interface xe-1/2/0.32767 
+    Flags: Up SNMP-Traps 0x0 VLAN-Tag [ 0x0000.0 ]  Encapsulation: ENET2
+    multiservice
+
+Physical interface: xe-1/3/0, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 9192, MRU: 9200, LAN-PHY mode, Speed: 10Gbps, Loopback: None, Source filtering: Disabled, Flow control: Enabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+  Link flags     : None
+
+  Logical interface xe-1/3/0.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    inet  201.48.184.14/29
+    inet6 2001:1291:1002:17::a/64
+          fe80::56e0:32ff:fecb:29a8/64
+    multiservice
+
+Physical interface: ae0, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 9192, Speed: 4Gbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Disabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+
+  Logical interface ae0.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    inet  170.84.34.194/30
+    inet6 2001:1291:0:7c::b/64
+          fe80::56e0:32ff:fecb:29c0/64
+    mpls
+    multiservice
+
+Physical interface: ae1, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 9192, Speed: 4Gbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Disabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+
+  Logical interface ae1.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    inet  170.84.33.166/30
+    inet6 2001:1291:0:7d::b/64
+          fe80::56e0:32ff:fecb:29c1/64
+    mpls
+    multiservice
+
+Physical interface: ae2, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 9192, Speed: 10Gbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Disabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+
+  Logical interface ae2.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    inet  170.84.34.153/30
+    inet6 2001:1291:0:124::b/64
+          fe80::56e0:32ff:fecb:29c2/64
+    mpls
+    multiservice
+
+Physical interface: ae3, Enabled, Physical link is Up
+  Link-level type: Ethernet, MTU: 9192, Speed: 10Gbps, Loopback: Disabled, Source filtering: Disabled, Flow control: Disabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x0
+
+  Logical interface ae3.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    inet  170.84.33.5/30  
+    inet6 2001:1291:0:196::a/64
+          fe80::56e0:32ff:fecb:29c3/64
+    mpls
+    multiservice
+
+Physical interface: cbp0, Enabled, Physical link is Up
+  Type: Ethernet, Link-level type: Ethernet, MTU: 1514, Clocking: Unspecified, Speed: Unspecified
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+
+Physical interface: demux0, Enabled, Physical link is Up
+  Type: Software-Pseudo, Link-level type: Unspecified, MTU: 9192, Clocking: 1, Speed: Unspecified
+  Device flags   : Present Running
+  Interface flags: Point-To-Point SNMP-Traps
+
+Physical interface: dsc, Enabled, Physical link is Up
+  Type: Software-Pseudo, Link-level type: Unspecified, MTU: Unlimited, Clocking: Unspecified, Speed: Unspecified
+  Device flags   : Present Running
+  Interface flags: Point-To-Point SNMP-Traps
+
+Physical interface: em0, Enabled, Physical link is Up
+  Type: Ethernet, Link-level type: Ethernet, MTU: 1514, Clocking: Unspecified, Speed: 1000mbps
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+
+  Logical interface em0.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    inet  10.0.0.4/8      
+          128.0.0.1/2     
+          128.0.0.4/2     
+    inet6 fe80::200:ff:fe00:4/64
+          fec0::a:0:0:4/64
+    tnp   0x4             
+
+Physical interface: em1, Enabled, Physical link is Down
+  Type: Ethernet, Link-level type: Ethernet, MTU: 1514, Clocking: Unspecified, Speed: 1000mbps
+  Device flags   : Present Running No-Carrier
+  Interface flags: Hardware-Down SNMP-Traps
+
+  Logical interface em1.0 
+    Flags: Device-Down SNMP-Traps 0x0 Encapsulation: ENET2
+    inet  10.0.0.1/8      
+          128.0.0.1/2     
+    tnp   0x4             
+
+Physical interface: esi, Enabled, Physical link is Up
+  Type: Software-Pseudo, Link-level type: VxLAN-Tunnel-Endpoint, MTU: Unlimited, Clocking: Unspecified, Speed: Unlimited
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+
+Physical interface: fxp0, Enabled, Physical link is Up
+  Type: Ethernet, Link-level type: Ethernet, MTU: 1514, Clocking: Unspecified, Speed: 100mbps
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+
+  Logical interface fxp0.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    inet  172.25.56.125/22
+
+Physical interface: gre, Enabled, Physical link is Up
+  Type: GRE, Link-level type: GRE, MTU: Unlimited, Speed: Unlimited
+  Device flags   : Present Running
+  Interface flags: Point-To-Point SNMP-Traps
+
+Physical interface: ipip, Enabled, Physical link is Up
+  Type: IPIP, Link-level type: IP-over-IP, MTU: Unlimited, Speed: Unlimited
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+
+Physical interface: irb, Enabled, Physical link is Up
+  Type: Ethernet, Link-level type: Ethernet, MTU: 1514, Clocking: Unspecified, Speed: Unspecified
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+
+  Logical interface irb.188 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    inet  172.24.192.254/25
+    multiservice
+
+  Logical interface irb.270 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    inet  172.24.192.126/25
+    multiservice
+
+  Logical interface irb.400 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    inet  172.24.230.14/28
+    multiservice
+
+  Logical interface irb.2088 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+    inet  172.16.66.2/29  
+    multiservice
+
+  Logical interface irb.3500 
+    Flags: Hardware-Down Up SNMP-Traps 0x0 Encapsulation: ENET2
+    inet
+    multiservice
+
+  Logical interface irb.3722 
+    Flags: Hardware-Down Up SNMP-Traps 0x0 Encapsulation: ENET2
+    inet  172.16.61.1/30  
+    multiservice
+
+Physical interface: jsrv, Enabled, Physical link is Up
+  Type: Ethernet, Link-level type: Ethernet, MTU: 1514, Clocking: Unspecified, Speed: Unspecified
+  Device flags   : Present Running
+
+  Logical interface jsrv.1 
+    Flags: Up 0x0 Encapsulation: unknown
+    inet  128.0.0.127/2   
+
+Physical interface: lo0, Enabled, Physical link is Up
+  Type: Loopback, Link-level type: Unspecified, MTU: Unlimited, Clocking: Unspecified, Speed: Unspecified
+  Device flags   : Present Running Loopback
+  Interface flags: SNMP-Traps
+
+  Logical interface lo0.0 
+    Flags: SNMP-Traps Encapsulation: Unspecified
+    inet  200.225.199.215  --> 0/0
+    inet6 2001:1291::96   
+          fe80::56e0:320f:fccb:29ff
+
+  Logical interface lo0.16384 
+    Flags: SNMP-Traps Encapsulation: Unspecified
+    inet  127.0.0.1        --> 0/0
+
+  Logical interface lo0.16385 
+    Flags: SNMP-Traps Encapsulation: Unspecified
+    inet
+
+Physical interface: lsi, Enabled, Physical link is Up
+  Type: Software-Pseudo, Link-level type: LSI, MTU: Unlimited, Clocking: Unspecified, Speed: Unlimited
+  Device flags   : Present Running
+
+  Logical interface lsi.0 
+    Flags: Up Point-To-Point SNMP-Traps Encapsulation: LSI-NULL
+    inet
+    iso
+    inet6
+
+  Logical interface lsi.1 
+    Flags: Up Point-To-Point SNMP-Traps Encapsulation: LSI-NULL
+    inet
+    iso
+    inet6
+
+  Logical interface lsi.2 
+    Flags: Up Point-To-Point SNMP-Traps Encapsulation: LSI-NULL
+    inet
+    iso
+    inet6
+
+  Logical interface lsi.3 
+    Flags: Up Point-To-Point SNMP-Traps Encapsulation: LSI-NULL
+    inet
+    iso
+    inet6
+
+  Logical interface lsi.1051000 
+    Flags: Up Point-To-Point SNMP-Traps Encapsulation: LSI-NULL
+    vpls
+
+  Logical interface lsi.1051003 
+    Flags: Up Point-To-Point SNMP-Traps 0x0 Encapsulation: LSI-NULL
+    vpls
+
+  Logical interface lsi.1051004 
+    Flags: Up Point-To-Point SNMP-Traps Encapsulation: LSI-NULL
+    vpls
+
+Physical interface: me0, Enabled, Physical link is Up
+  Type: Ethernet, Link-level type: Ethernet, MTU: 1514, Clocking: Unspecified, Speed: 1000mbps
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+
+  Logical interface me0.0 
+    Flags: Up SNMP-Traps 0x0 Encapsulation: ENET2
+
+Physical interface: mtun, Enabled, Physical link is Up
+  Type: Multicast-GRE, Link-level type: GRE, MTU: Unlimited, Speed: Unlimited
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+
+Physical interface: pimd, Enabled, Physical link is Up
+  Type: PIMD, Link-level type: PIM-Decapsulator, MTU: Unlimited, Speed: Unlimited
+  Device flags   : Present Running
+
+Physical interface: pime, Enabled, Physical link is Up
+  Type: PIME, Link-level type: PIM-Encapsulator, MTU: Unlimited, Speed: Unlimited
+  Device flags   : Present Running
+
+Physical interface: pip0, Enabled, Physical link is Up
+  Type: Ethernet, Link-level type: Ethernet, MTU: 1514, Clocking: Unspecified, Speed: Unspecified
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+
+Physical interface: pp0, Enabled, Physical link is Up
+  Type: PPPoE, Link-level type: PPPoE, MTU: 1532, Speed: Unspecified
+  Device flags   : Present Running
+  Interface flags: Point-To-Point SNMP-Traps
+
+Physical interface: tap, Enabled, Physical link is Up
+  Type: Software-Pseudo, Link-level type: Interface-Specific, MTU: Unlimited, Clocking: Unspecified, Speed: Unlimited
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+
+Physical interface: vtep, Enabled, Physical link is Up
+  Type: Software-Pseudo, Link-level type: VxLAN-Tunnel-Endpoint, MTU: Unlimited, Clocking: Unspecified, Speed: Unlimited
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps
+
+a-bb-rt-vrd-001-mx80> show interfaces descriptions | no-more 
+Interface       Admin Link Description
+xe-0/0/0        up    up   TRUNK_PTX-3000-A-SPO-CNSP_et-0/0/12_PADTEC_Ch58_via_RSE
+xe-0/0/1        down  down RESERVADO_PTX3000-SPO
+xe-0/0/2        up    up   TRUNK_PTX-3000-A-RJO_et-12/0/11_PADTEC_Ch58_via_BPI
+xe-0/0/3        down  down RESERVADO_PTX3000-RJO
+ge-1/0/0        up    up   TRUNK_MX480-C_SPO_PADTEC_Ch57_P5_via_SJC
+ge-1/0/1        up    up   TRUNK_MX480-C_SPO_PADTEC_Ch57_P8_via_SJC
+ge-1/0/2        up    up   TRUNK_MX480-C_SPO_PADTEC_Ch57_P3_via_SJC
+ge-1/0/3        up    up   TRUNK_MX480-C_SPO_PADTEC_Ch57_P4_via_SJC
+ge-1/0/4        up    up   TRUNK-a-me-sw-vrd-001-centro-01-172.24.192.1
+ge-1/0/4.43     up    up   cl-rt-rjo-ferragensnegrao-(0000029949)
+ge-1/0/4.188    up    up   Ger_SW_clientes_rede_metro
+ge-1/0/4.270    up    up   Gerencia_RJO
+ge-1/0/4.452    up    up   cl-rt-vrd-ctbcrjo-(03120635-VRD)
+ge-1/0/4.544    up    up    cl-rt-vrd-s.o.dobrasil(02248508-VRD)
+ge-1/0/4.1074   up    up   0000122487-0000122489
+ge-1/0/4.2054   up    up   cl-rt-rjo-estaleiro-(0000072754/0000072755)
+ge-1/0/4.2066   up    up   cl-rt-vrd-serviconaciona-(0000089471)
+ge-1/0/4.2533   up    up   cl-rt-vrd-ciacresendeau-(0000133790)
+ge-1/0/4.3530   up    up   cl-rt-vrd-ckbv-(03346806-VRD)
+ge-1/0/5        up    up   TRUNK-a-me-sw-vrd-001-centro-02-172.24.192.2
+ge-1/0/5.64     up    up   cl-rt-rjo-redenacionald (0000027834)
+ge-1/0/5.82     up    up   cl-rt-rjo-itnxcomercioe-(0000036538)
+ge-1/0/5.188    up    up   Ger_SW_clientes_rede_metro
+ge-1/0/5.270    up    up   Gerencia_RJO
+ge-1/0/5.417    up    up   cl-rt-vrd-primetalstechn-(0000107417)
+ge-1/0/5.1537   up    up   cl-rt-vrd-so.do.brasil-(01724672)
+ge-1/0/5.1550   up    up   0000058220
+ge-1/0/5.2077   up    up   cl-rt-rjo-redenacionald-(0000094207/0000094210)
+ge-1/0/6        up    up   TRUNK-a-me-sw-vrd-001-centro-03-172.24.192.3
+ge-1/0/6.188    up    up   Ger_SW_clientes_rede_metro
+ge-1/0/6.199    up    up   cl-rt-rjo-servicosocialda-(0000067047)
+ge-1/0/6.225    up    up   cl-rt-vrd-municipiodevo-(0000096762)
+ge-1/0/6.270    up    up   Gerencia_RJO
+ge-1/0/6.1326   up    up   cl-rt-spo-glass-telecom-(0000047107-0000047108)
+ge-1/0/6.2065   up    up   cl-rt-rjo-municivoltaredonda(0000087347)
+ge-1/0/9        up    up   cl-rt-vrd-superimagem(0000044530-VRD)
+ge-1/1/0        up    up   TRUNK_MX480-A_SPO_PADTEC_Ch57_P5_via_BHE
+ge-1/1/1        up    up   TRUNK_MX480-A_SPO_PADTEC_Ch57_P8_via_BHE
+ge-1/1/2        up    up   TRUNK_MX480-A_SPO_PADTEC_Ch57_P3_via_BHE
+ge-1/1/3        up    up   TRUNK_MX480-A_SPO_PADTEC_Ch57_P4_via_BHE
+ge-1/1/8        up    up   TRUNK-a-me-sw-vrd-001-centro-05-172.24.192.6-p.28
+ge-1/1/8.270    up    up   Gerencia_RJO
+ge-1/1/8.400    up    up   Gerencia_Retificador-RSD/LNA-Via_Padtec
+ge-1/1/8.2525   up    up   teste_max_cor_tx
+ge-1/1/9        up    up   cl-rt-spo-SO-DOBRASIL-(0000071205/0000071206)
+xe-1/2/0        up    up   TRUNK-a-me-sw-vrd-001-centro-05-172.24.192.6-p.31
+xe-1/3/0        up    up   cl-rt-vrd-so_do_brasil (01396963-VRD)
+ae0             up    up   TRUNK_MX480-A_SPO_PADTEC_Ch57_via_BHE-longo
+ae1             up    up   TRUNK_MX480-C-SPO_PADTEC_Ch57_via_SJC-curto
+ae2             up    up   TRUNK_PTX-3000-A-RJO_ae2_PADTEC_Ch58_via_BPI
+ae3             up    up   TRUNK_PTX-3000-A-SPO-CNSP_ae4_PADTEC_Ch58_via_RSE
+irb.188         up    up   Ger_SW_clientes_rede_metro
+irb.270         up    up   Gerencia_RJO
+irb.400         up    up   Gerencia_Retificador-RSD/LNA-Via_Padtec
+
+a-bb-rt-vrd-001-mx80> exit 
