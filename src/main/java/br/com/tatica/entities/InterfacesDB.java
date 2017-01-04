@@ -1,15 +1,15 @@
 package br.com.tatica.entities;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 public class InterfacesDB {
 	
 	private static InterfacesDB instance;
-	private static List<PhysicalInterface> physicalInterfaces;
+	private static Map<String, PhysicalInterface> physicalInterfaces;
 	
 	private InterfacesDB() {
-		physicalInterfaces = new ArrayList<PhysicalInterface>();
+		physicalInterfaces = new HashMap<String,PhysicalInterface>();
 	}
 	
 	public static InterfacesDB get() {
@@ -19,7 +19,16 @@ public class InterfacesDB {
 		return InterfacesDB.instance;
 	}
 	
-	public static void addInterface(PhysicalInterface physicalInterface) {
-		physicalInterfaces.add(physicalInterface);
+	public static void addPhysicalInterface(PhysicalInterface physicalInterface) {
+		physicalInterfaces.put(physicalInterface.getDescription(), physicalInterface);
+	}
+	
+	public static void addLogicalInterface(LogicalInterface logicalInterface) {
+		PhysicalInterface physicalInterface = null;
+		physicalInterface = physicalInterfaces.get(logicalInterface.getPhysicalPrefix());
+		
+		if (physicalInterface != null) {
+			physicalInterface.addLogicalInterface(logicalInterface);
+		}
 	}
 }
