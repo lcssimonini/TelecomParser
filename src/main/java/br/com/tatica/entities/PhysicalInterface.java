@@ -1,20 +1,22 @@
 package br.com.tatica.entities;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class PhysicalInterface {
 	
-	public static String descriptionPattern = "Physical interface:\\s\\w{1,}-\\d{1,2}/\\d{1,2}/\\d{1,2}";
-	public static String linePattern = "Physical interface:\\s" + descriptionPattern;
+	public static String descriptionPattern = "\\w{1,}-\\d{1,2}/\\d{1,2}/\\d{1,2},";
+
 	private String description;
-	private List<LogicalInterface> logicalInterfaces;
+	private List<LogicalInterface> logicalInterfaces = null;
 	
 	public PhysicalInterface(String description){
-		this.description = description;
+		this.description = description.substring(0, description.length()-1);
+		this.logicalInterfaces = new ArrayList<LogicalInterface>();
 	}
 	
 	public void addLogicalInterface(LogicalInterface logicalInterface) {
-		logicalInterfaces.add(logicalInterface);
+		this.logicalInterfaces.add(logicalInterface);
 	}
 
 	public String getDescription() {
@@ -26,10 +28,14 @@ public class PhysicalInterface {
 		String eol = System.lineSeparator();
 		StringBuilder builder = new StringBuilder();
 		builder.append("Interface física: "+ this.description + eol);
-		builder.append("Interfaces Lógicas: " + eol);
 		
-		for (LogicalInterface logicalInterface : logicalInterfaces) {
-			builder.append(logicalInterface.getDescription() + eol);
+		if (this.logicalInterfaces.isEmpty()) {
+			builder.append("nenhuma interface lógica" + eol);
+		} else {
+			builder.append("Interfaces Lógicas: " + eol);
+			for (LogicalInterface logicalInterface : this.logicalInterfaces) {
+				builder.append(logicalInterface.getDescription() + eol);
+			}
 		}
 		
 		return builder.toString();

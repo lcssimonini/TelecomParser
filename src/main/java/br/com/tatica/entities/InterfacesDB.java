@@ -5,30 +5,24 @@ import java.util.Map;
 
 public class InterfacesDB {
 	
-	private static InterfacesDB instance;
-	private static Map<String, PhysicalInterface> physicalInterfaces;
-	
-	private InterfacesDB() {
-		physicalInterfaces = new HashMap<String,PhysicalInterface>();
-	}
-	
-	public static InterfacesDB get() {
-		if (InterfacesDB.instance == null) {
-			InterfacesDB.instance = new InterfacesDB();
-		}
-		return InterfacesDB.instance;
-	}
+	private static Map<String, PhysicalInterface> physicalInterfaces = new HashMap<String,PhysicalInterface>();
 	
 	public static void addPhysicalInterface(PhysicalInterface physicalInterface) {
 		physicalInterfaces.put(physicalInterface.getDescription(), physicalInterface);
 	}
 	
 	public static void addLogicalInterface(LogicalInterface logicalInterface) {
-		PhysicalInterface physicalInterface = null;
-		physicalInterface = physicalInterfaces.get(logicalInterface.getPhysicalPrefix());
+		PhysicalInterface physicalInterface = physicalInterfaces.get(logicalInterface.getPhysicalPrefix());
 		
 		if (physicalInterface != null) {
 			physicalInterface.addLogicalInterface(logicalInterface);
+		}
+	}
+	
+	public static void printAllInterfaces() {
+		for (PhysicalInterface physicalInterface : physicalInterfaces.values()) {
+			System.out.println(physicalInterface.toString());
+			System.out.println("=========================================");
 		}
 	}
 }
