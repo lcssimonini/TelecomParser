@@ -4,6 +4,8 @@ import java.util.List;
 
 public class PhysicalInterface {
 	
+	public static String descriptionPattern = "Physical interface:\\s\\w{1,}-\\d{1,2}/\\d{1,2}/\\d{1,2}";
+	public static String linePattern = "Physical interface:\\s" + descriptionPattern;
 	private String description;
 	private List<LogicalInterface> logicalInterfaces;
 	
@@ -23,7 +25,8 @@ public class PhysicalInterface {
 	public String toString() {
 		String eol = System.lineSeparator();
 		StringBuilder builder = new StringBuilder();
-		builder.append(this.description + eol);
+		builder.append("Interface física: "+ this.description + eol);
+		builder.append("Interfaces Lógicas: " + eol);
 		
 		for (LogicalInterface logicalInterface : logicalInterfaces) {
 			builder.append(logicalInterface.getDescription() + eol);
